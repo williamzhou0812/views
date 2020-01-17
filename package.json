@@ -48,5 +48,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://ec2-3-104-77-170.ap-southeast-2.compute.amazonaws.com:5000"
+  "proxy": "http://nkwcms.jbgconcierge.com.au:5000/"
 }
