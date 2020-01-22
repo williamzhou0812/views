@@ -37,7 +37,7 @@ const NKWDetail = () => {
 
 
     useEffect(() => {
-        axios.get('/api/nkwfreshdetails').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/nkwfreshdetails').then(res => {
             console.log(res.data);
             setNkwFresh(res.data[0]);
 

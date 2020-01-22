@@ -20,7 +20,7 @@ const TrainingService = () => {
 
 
    useEffect(() => {
-    axios.get('/api/mtotrainingexpdetail').then(res => {
+    axios.get('https://nkwapi.jbgcore.com:5000/api/mtotrainingexpdetail').then(res => {
         setMtoTraining(res.data[0])
     });
    }, []);

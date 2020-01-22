@@ -21,7 +21,7 @@ const NKWFresh = () => {
     
     
     useEffect(()=> { 
-        axios.get('/api/nkwfreshexpdetail').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/nkwfreshexpdetail').then(res => {
              setNkWFresh(res.data[0])
         });
     },[])

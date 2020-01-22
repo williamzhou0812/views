@@ -22,7 +22,7 @@ const Logistics = () => {
     });
 
     useEffect(() => {
-        axios.get('/api/logisticstranport')
+        axios.get('https://nkwapi.jbgcore.com:5000/api/logisticstranport')
             .then(res => { 
                 console.log(res.data[0]);
                 setlogistics(res.data[0])

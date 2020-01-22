@@ -60,7 +60,7 @@ const  NkwBuildingDetail = () => {
 
 useEffect(()=>  {
 
-    axios.get('/api/nkwbuilding').then(res => {
+    axios.get('https://nkwapi.jbgcore.com:5000/api/nkwbuilding').then(res => {
 
         console.log(res.data[0]);
         setNKWBuilding(res.data[0]);

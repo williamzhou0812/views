@@ -30,7 +30,7 @@ const  HiddenValleyDetail = () => {
 
 
     useEffect(() => {
-        axios.get('/api/hiddenvalley').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/hiddenvalley').then(res => {
             console.log(res.data);
             setHiddenValleyDetail(res.data[0]);
         });

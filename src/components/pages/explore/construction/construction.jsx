@@ -22,7 +22,7 @@ const Construction = () => {
     });
 
     useEffect(() => {
-        axios.get('/api/nkwbc').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/nkwbc').then(res => {
             console.log(res.data[0]);
             setConstruction(res.data[0]);
         })

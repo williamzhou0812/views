@@ -21,7 +21,7 @@ const CampManagement = () => {
     const [id, setID] = useState('');
 
     useEffect(() => {
-        axios.get('/api/campmanagement').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/campmanagement').then(res => {
             console.log(res.data[0]);
             setCampManagement(res.data[0]);
             setID(res.data[0]._id);

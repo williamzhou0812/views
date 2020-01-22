@@ -29,7 +29,7 @@ const  MountainCoffeeRoastersDetails = () => {
 
 
     useEffect(() => {
-        axios.get('/api/mountaincoffee').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/mountaincoffee').then(res => {
             console.log(res.data);
             setMountainCoffee(res.data[0]);
         });

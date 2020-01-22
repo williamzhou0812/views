@@ -20,7 +20,7 @@ const Procure  = () => {
 
 
     useEffect(() => { 
-      axios.get('/api/procurementexpdetail').then(res => {
+      axios.get('https://nkwapi.jbgcore.com:5000/api/procurementexpdetail').then(res => {
          console.log(res.data[0]);
          setProc(res.data[0]);
       })

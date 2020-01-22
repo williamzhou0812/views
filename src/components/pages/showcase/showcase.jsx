@@ -18,7 +18,7 @@ const ShowCase = () => {
     // GET DATA From api
 
     useEffect(() => {
-        axios.get('/api/showcase').then(res => { 
+        axios.get('https://nkwapi.jbgcore.com:5000/api/showcase').then(res => { 
             console.log(res.data[0]);
             setShowCase(res.data[0]);
         })

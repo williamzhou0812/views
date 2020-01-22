@@ -28,7 +28,7 @@ const  ExpacDetail = () => {
 
 
     useEffect(() => {
-        axios.get('/api/expacpng').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/expacpng').then(res => {
             console.log(res.data);
             setExpacDetail(res.data[0]);
         });

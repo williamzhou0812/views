@@ -23,7 +23,7 @@ const  AllPowerServiceDetail = () => {
     });
 
     useEffect(() => {
-        axios.get('/api/aps').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/aps').then(res => {
             console.log(res.data[0]);
             setAps(res.data[0]);
         })

@@ -43,7 +43,7 @@ const ExploreLanding = () => {
     // GET DATA Explor Landing contants data from api
 
     useEffect(() => {
-        axios.get('/api/explorelanding').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/explorelanding').then(res => {
             console.log(res.data);
             setExploreLanding(res.data);
             

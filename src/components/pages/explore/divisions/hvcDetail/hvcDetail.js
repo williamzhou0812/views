@@ -48,7 +48,7 @@ const [hvc, setHVC] = useState({
 });
 
 useEffect(() => {
-    axios.get('/api/hvc').then(res => {
+    axios.get('https://nkwapi.jbgcore.com:5000/api/hvc').then(res => {
         setHVC(res.data[0]);
         console.log(res.data[0]);
 

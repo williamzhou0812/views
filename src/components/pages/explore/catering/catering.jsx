@@ -25,7 +25,7 @@ const Catering = () => {
     });
     
     useEffect(()=> {
-        axios.get('/api/nkwcateringexpdetail').then(res => { 
+        axios.get('https://nkwapi.jbgcore.com:5000/api/nkwcateringexpdetail').then(res => { 
             console.log(res.data[0]);
             setNKWCateringDetail(res.data[0]);
         });

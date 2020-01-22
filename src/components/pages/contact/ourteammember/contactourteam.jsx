@@ -74,7 +74,7 @@ const ContactOurTeam = () => {
 
     // GET Our Team Data from api/ourteam
     useEffect(() => {
-        axios.get('/api/ourteam').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/ourteam').then(res => {
             console.log(res.data);
             setOurteam(res.data);
         });

@@ -37,7 +37,7 @@ const [jet, setJet] = useState({
 });
 
 useEffect(() => {
-    axios.get('/api/jet').then(res => {
+    axios.get('https://nkwapi.jbgcore.com:5000/api/jet').then(res => {
         setJet(res.data[0]);
         console.log(res.data[0]);
 

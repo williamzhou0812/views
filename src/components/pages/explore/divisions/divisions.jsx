@@ -10,7 +10,7 @@ const Divisions = () => {
     const [divisionLogo, setDivisionLogo]  =  useState([{}]);
     
     useEffect(() => {
-        axios.get('/api/disvisions').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/disvisions').then(res => {
            console.log(res.data.disvisions);
            setDivisionLogo(res.data.disvisions)
         });

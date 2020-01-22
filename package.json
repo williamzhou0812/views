@@ -48,5 +48,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://nkwcms.jbgconcierge.com.au:5000/"
+  "proxy": "https://nkwapi.jbgcore.com:5000/"
 }

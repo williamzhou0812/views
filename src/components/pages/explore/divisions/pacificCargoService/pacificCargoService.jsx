@@ -70,14 +70,14 @@ const  PacificCargoService = () => {
    }]);
 
     useEffect(() => {
-        axios.get('/api/pcs').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/pcs').then(res => {
             console.log(res.data[0]);
             setPCS(res.data[0]);
         }); 
     }, []);
 
     useEffect(() => {
-        axios.get('/api/cards').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/cards').then(res => {
             console.log(res.data);
             setCards(res.data);
         }); 

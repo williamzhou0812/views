@@ -51,7 +51,7 @@ const  MotoTrainingDetail = () => {
     }) 
 
     useEffect(() => { 
-        axios.get('/api/mtotraining').then(res => { 
+        axios.get('https://nkwapi.jbgcore.com:5000/api/mtotraining').then(res => { 
             setMotoTraning(res.data[0]);
         })
     },[])

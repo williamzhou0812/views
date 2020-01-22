@@ -25,7 +25,7 @@ const PngCommercialVehiclesDetail = () => {
 
 
     useEffect(() => {
-        axios.get('/api/pngcommericalvehicles').then(res => { 
+        axios.get('https://nkwapi.jbgcore.com:5000/api/pngcommericalvehicles').then(res => { 
             console.log(res.data[0]);
             setPNGCommVehicles(res.data[0]);
         })

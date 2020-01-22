@@ -40,57 +40,57 @@ const OurTeam = () => {
    useEffect(() => {
     const  ourteam =  [
         {
-            ot_profile_img: 'http://localhost:5000/ourteam/MarlenBrunskill.jpg',
+            ot_profile_img: 'https://nkwapi.jbgcore.com:5000//ourteam/MarlenBrunskill.jpg',
             ot_name: 'Marlen Brunskill',
             ot_job: 'CEO'
         },
         {
-            ot_profile_img: 'http://localhost:5000/ourteam/OurTeamClark.png',
+            ot_profile_img: 'https://nkwapi.jbgcore.com:5000//ourteam/OurTeamClark.png',
             ot_name: 'Paul Clark',
             ot_job: 'CFO'
         },
         {
-            ot_profile_img: 'http://localhost:5000/ourteam/OurTeamFranklin.png',
+            ot_profile_img: 'https://nkwapi.jbgcore.com:5000//ourteam/OurTeamFranklin.png',
             ot_name: 'Phil Franklin',
             ot_job: 'COO'
         },
         {
-            ot_profile_img: 'http://localhost:5000/ourteam/OurTeamKolomaga.png',
+            ot_profile_img: 'https://nkwapi.jbgcore.com:5000//ourteam/OurTeamKolomaga.png',
             ot_name: 'Chris Kolomaga',
             ot_job: 'Financial Controller'   
         },
         {
-            ot_profile_img: 'http://localhost:5000/ourteam/OurTeamWartovo.png',
+            ot_profile_img: 'https://nkwapi.jbgcore.com:5000//ourteam/OurTeamWartovo.png',
             ot_name: 'Levi Wartovo',
             ot_job: 'Director & Board Member Representing Kuembu Landowners'   
         },
         {
-            ot_profile_img: 'http://localhost:5000/ourteam/OurTeamSawong.png',
+            ot_profile_img: 'https://nkwapi.jbgcore.com:5000//ourteam/OurTeamSawong.png',
             ot_name: 'Don Sawong',
             ot_job: 'Independent Board Member Director - Retired Judge'  
         },
         {
-            ot_profile_img: 'http://localhost:5000/ourteam/OurTeamKupa.png',
+            ot_profile_img: 'https://nkwapi.jbgcore.com:5000//ourteam/OurTeamKupa.png',
             ot_name: 'Nathan Kupa',
             ot_job: 'Director & Board Member - Representing Nauti Landowners'  
         },
         {
-            ot_profile_img: 'http://localhost:5000/ourteam/OurTeamKawa.png',
+            ot_profile_img: 'https://nkwapi.jbgcore.com:5000//ourteam/OurTeamKawa.png',
             ot_name: 'Samson Kawa',
             ot_job: 'Director & Board Member Representing Winnima'  
         },
         {
-            ot_profile_img: 'http://localhost:5000/ourteam/OurTeamKiki.png',
+            ot_profile_img: 'https://nkwapi.jbgcore.com:5000//ourteam/OurTeamKiki.png',
             ot_name: 'Robin Kiki',
             ot_job: 'Director & Board Member - Representing Morobe Provincial Government' 
         },
         {
-            ot_profile_img: 'http://localhost:5000/ourteam/OurTeamYanga.png',
+            ot_profile_img: 'https://nkwapi.jbgcore.com:5000//ourteam/OurTeamYanga.png',
             ot_name: 'Tali Chris Yanga',
             ot_job: 'Director and Board Member - Representing Morobe Provincial Government' 
         },
         {
-            ot_profile_img: 'http://localhost:5000/ourteam/OurTeamNorum.png',
+            ot_profile_img: 'https://nkwapi.jbgcore.com:5000//ourteam/OurTeamNorum.png',
             ot_name: 'James Norum',
             ot_job: 'Director and Board Member Representing Mineral Resources Authority' 
         }

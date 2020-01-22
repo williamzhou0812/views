@@ -64,7 +64,7 @@ const Header = ({ match, location, history } ) => {
     })
 
     useEffect(()=> {
-        axios.get('/api/header').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/header').then(res => {
             console.log(res.data)
             setHeader(res.data[0]);
 

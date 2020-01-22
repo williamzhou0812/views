@@ -143,7 +143,7 @@ const  QPSDetail = () => {
 
 
     useEffect(() => {
-        axios.get('/api/qps').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/qps').then(res => {
             console.log(res.data);
             setqpsDetail(res.data[0]);
         });

@@ -283,7 +283,7 @@ const [about, setAbout] = useState({
 
 
     useEffect(() => {
-        axios.get('/api/about').then(res => {
+        axios.get('https://nkwapi.jbgcore.com:5000/api/about').then(res => {
 
             console.log(res.data[0]);
             setAbout(res.data[0]);
@@ -314,22 +314,22 @@ const ourService =  {
 
         const  ourteam =  [
             {
-                ot_profile_img: 'http://ec2-3-104-77-170.ap-southeast-2.compute.amazonaws.com:5000/ourteam/MarlenBrunskill.jpg',
+                ot_profile_img: 'https://nkwapi.jbgcore.com:5000/ourteam/MarlenBrunskill.jpg',
                 ot_name: 'Marlen Brunskill',
                 ot_job: 'CEO'
             },
             {
-                ot_profile_img: 'http://ec2-3-104-77-170.ap-southeast-2.compute.amazonaws.com:5000/ourteam/OurTeamClark.png',
+                ot_profile_img: 'https://nkwapi.jbgcore.com:5000/ourteam/OurTeamClark.png',
                 ot_name: 'Paul Clark',
                 ot_job: 'CFO'
             },
             {
-                ot_profile_img: 'http://ec2-3-104-77-170.ap-southeast-2.compute.amazonaws.com:5000/ourteam/OurTeamFranklin.png',
+                ot_profile_img: 'https://nkwapi.jbgcore.com:5000/ourteam/OurTeamFranklin.png',
                 ot_name: 'Phil Franklin',
                 ot_job: 'COO'
             },
             {
-                ot_profile_img: 'http://ec2-3-104-77-170.ap-southeast-2.compute.amazonaws.com:5000/ourteam/OurTeamKolomaga.png',
+                ot_profile_img: 'https://nkwapi.jbgcore.com:5000/ourteam/OurTeamKolomaga.png',
                 ot_name: 'Chris Kolomaga',
                 ot_job: 'Financial Controller'   
             }
